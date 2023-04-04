@@ -1,0 +1,15 @@
+let numeroAleatorio = Math.floor(Math.random ()* 10)+ 1
+
+let palpite = 4
+
+function minhaFuncao (palpite,numeroAleatorio){
+    if (palpite>numeroAleatorio) {
+    console.log( palpite + " é maior que " + numeroAleatorio )
+    }
+    else if (palpite< numeroAleatorio){
+    console.log( palpite + " não é maior que " + numeroAleatorio )
+    } else {
+        console.log ( "Você Acertou" )
+    }
+}
+minhaFuncao(palpite,numeroAleatorio)
